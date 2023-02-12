@@ -65,50 +65,52 @@ header #logo {
 */
 
 section {
+    background-image: url("assets/images/coverpicture.jpg") ;
     background-color: rgba(0,0,0, .6);
-    background-image: url("assets/images/coverpicture.jpg");
     background-size: 100%;
     background-position: center;
     height: 500px;
     padding: 20px;
     text-align: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-#section2 {
+.imagcont {
     background: black;
-    color: grey;
+    color: azure;
     padding: 20px;
     display: flex;
     flex-direction: row;
-    border-radius: 50px;
 }
-
 
 #img1 {
-    width: 200px;
+    width: 400px;
     
     margin: auto;
    
     padding: 10px;
+    border-radius: 200px;
 }
 #img2 {
-    width: 300px;
+    width: 400px;
     
     margin: auto;
    
     padding: 10px;
+    border-radius: 200px;
 }
 #img3 {
-    width: 300px;
+    width: 400px;
     
     margin: auto;
     
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 200px;
 }
 
 footer {
-    background: rgb(197, 23, 23);
+    background: rgb(23, 40, 197);
     color:white;
     padding: 20px;
 }
