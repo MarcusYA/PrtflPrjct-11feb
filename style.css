@@ -10,7 +10,7 @@
 
 #logo {
     text-align: left;
-    text-indent: -400px;
+    /*text-indent: -400px;*/
 }
 /*
 header #logo {
@@ -31,7 +31,6 @@ header #logo {
     background: black;
     font-family: Arial;
     text-align: right;
-    width: 80%;
 }
 
 .navbar li {
@@ -81,32 +80,35 @@ section {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    border-radius: 50px;
 }
 
+
 #img1 {
-    width: 400px;
+    width: 300px;
     
     margin: auto;
    
     padding: 10px;
 }
 #img2 {
-    width: 400px;
+    width: 300px;
     
     margin: auto;
    
     padding: 10px;
 }
 #img3 {
-    width: 400px;
+    width: 300px;
     
     margin: auto;
     
     padding: 10px;
+    border-radius: 50px;
 }
 
 footer {
-    background: black;
+    background: rgb(197, 23, 23);
     color:white;
     padding: 20px;
 }
