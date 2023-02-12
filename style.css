@@ -6,12 +6,21 @@
     border: 0;
 }
 
+/* header*/
+
 header {
     background: black;
     height: 40px;
     color: white;
     padding: 20px;
 }
+
+.container {
+    list-style: none;
+    display: flex;
+}
+
+
 
 section {
     background: rgb(248, 246, 246);
@@ -26,3 +35,4 @@ footer {
     color:white;
     padding: 20px;
 }
+
