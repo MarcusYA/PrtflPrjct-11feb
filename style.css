@@ -8,8 +8,9 @@
 
 header {
     background: black;
-    height: 100px;
+    height: 40px;
     color: white;
+    padding: 20px;
 }
 
 section1 {
@@ -23,4 +24,5 @@ section {
 footer {
     background: black;
     color:white;
+    padding: 20px;
 }
