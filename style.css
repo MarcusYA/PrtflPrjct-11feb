@@ -15,7 +15,14 @@
 }
 
 .navbar li {
-    
+    display: inline-block;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    display: block;
 }
 
 /*header {
@@ -49,6 +56,8 @@ li a {
     display: inline;
 }
 
+*/
+
 section {
     background: rgb(248, 246, 246);
 }
@@ -62,4 +71,3 @@ footer {
     color:white;
     padding: 20px;
 }
-*/
