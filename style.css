@@ -29,6 +29,12 @@ li a {
     text-decoration: none;
 }
 
+#logo {
+    height: 40px;
+    width: 40;
+    background: url("assets/images/the-activation-foundation-website-favicon-white.png");
+}
+
 section {
     background: rgb(248, 246, 246);
 }
