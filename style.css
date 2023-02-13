@@ -8,55 +8,48 @@
 
 /* header*/
 
-#logo {
-    width: 500px;
-
-
-    /*text-indent: -400px;*/
-}
-/*
-header #logo {
-    background-image: url(assets/images/the-activation-foundation-website-favicon-white.png) no-repeat;
-    background-size: 300px;
-    display: inline-block;
-    height: 40px;
-    width: 200px;
-    text-align: left;
-    text-indent: -99999px;
-}
-*/
-
-.navbar ul {
-    list-style: none;
-    padding: 50px;
-    margin: 0;
+nav {
     background: black;
-    font-family: Arial;
-    text-align: right;
-    border-bottom: white solid 2px;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
 }
 
-.navbar li {
-    display: inline-block;
+nav a {
+    color: rgb(127, 187, 140);
 }
 
-.navbar a {
-    text-decoration: none;
+nav a:hover {
     color: azure;
-    width: 100px;
-    display: block;
-    padding: 30px 20 px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align: center;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
     font-size: 20px;
+    padding-left: 100px;
 }
 
-.navbar a:hover {
-    background: azure;
-    color: black;
+.logo img {
+    width: 400px;
+    margin-right: 10px;
 }
 
+.menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+}
+
+.menu li {
+    padding: 15px 10px;
+    font-size: 30px;
+}
 
 #mainimage {
     display:flex;
@@ -77,6 +70,7 @@ header #logo {
     margin-left: auto;
     margin-right: auto;
     width: 60%;
+    border-radius: 200px;
 }
 
 .imagcont {
@@ -86,6 +80,7 @@ header #logo {
     display: flex;
     flex-direction: row;
     text-align: center;
+    
 }
 
 #img1 {
@@ -117,4 +112,8 @@ footer {
     background: rgb(23, 40, 197);
     color:white;
     padding: 20px;
+}
+
+.fa-solid {
+    padding: 5px;
 }
