@@ -26,11 +26,12 @@ header #logo {
 
 .navbar ul {
     list-style: none;
-    padding: 10px;
+    padding: 50px;
     margin: 0;
     background: black;
     font-family: Arial;
     text-align: right;
+    border-bottom: white solid 2px;
 }
 
 .navbar li {
@@ -64,16 +65,25 @@ header #logo {
 
 */
 
-section {
+#mainimage {
+    display:flex;
+    background: black;
+}
+
+.mainimage {
     background-image: url("assets/images/coverpicture.jpg") ;
     background-color: rgba(0,0,0, .6);
     background-size: 100%;
     background-position: center;
     height: 500px;
+    width: 80%;
     padding: 20px;
-    text-align: center;
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
 
 .imagcont {
@@ -82,6 +92,7 @@ section {
     padding: 20px;
     display: flex;
     flex-direction: row;
+    text-align: center;
 }
 
 #img1 {
