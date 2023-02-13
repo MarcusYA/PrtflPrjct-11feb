@@ -9,7 +9,9 @@
 /* header*/
 
 #logo {
-    text-align: left;
+    width: 500px;
+
+
     /*text-indent: -400px;*/
 }
 /*
@@ -55,15 +57,6 @@ header #logo {
     color: black;
 }
 
-/*
-#logo {
-    height: 40px;
-    width: 40;
-    background: url("assets/images/the-activation-foundation-website-favicon-white.png") no-repeat;
-    display: inline;
-}
-
-*/
 
 #mainimage {
     display:flex;
