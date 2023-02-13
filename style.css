@@ -49,6 +49,8 @@ nav a:hover {
 .menu li {
     padding: 15px 10px;
     font-size: 30px;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 #mainimage {
@@ -57,7 +59,7 @@ nav a:hover {
 }
 
 .mainimage {
-    background-image: url("assets/images/coverpicture.jpg") ;
+    background-image: url("assets/images/coverpicture.jpg");
     background-size: 100%;
     height: 500px;
     background-color: rgba(0,0,0, .6);
@@ -73,6 +75,38 @@ nav a:hover {
     width: 80%;
     border-radius: 200px;
     text-align: center;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 4px;
+
+    width: 780px;
+    height: 220px;
+
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+
+    background-color: rgba(127, 187, 140, .7);
+
+    bottom: 230px;
+    left: 169px;
+
+    position: absolute;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 100px;
+    
+
+}
+
+
+.infotext {
+    color: white;
+    font-family: poppins, Arial, Helvetica, sans-serif;
 }
 
 .imagcont {
@@ -141,3 +175,8 @@ font-size: 200%;
 color:rgba(8, 8, 8, 0.6);
 padding: 30px;
 }
+
+.some, .coninfo h1,h2 {
+    color: black;
+}
+
